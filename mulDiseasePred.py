@@ -41,9 +41,9 @@ import pickle
 import streamlit as st
 
 # Sidebar navigation
-st.sidebar.title("Navigation")
-menu = ["Home", "Diabetes Prediction", "Heart Disease Prediction"]
-choice = st.sidebar.radio("Go to", menu)
+# st.sidebar.title("Navigation")
+# menu = ["Home", "Diabetes Prediction", "Heart Disease Prediction"]
+# choice = st.sidebar.radio("Go to", menu)
 
 # import subprocess
 # import sys
