@@ -36,7 +36,7 @@ Created on Sun Jan 26 00:11:57 2025
 #     os.system("pip install streamlit-option-menu")
 #     from streamlit_option_menu import option_menu
 
-# from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 import pickle
 import streamlit as st
 
