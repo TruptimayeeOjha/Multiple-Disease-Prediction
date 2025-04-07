@@ -4,9 +4,9 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 
 # loading the saved models
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_disease.sav', 'rb'))
 heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
-parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_disease.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
@@ -228,5 +228,3 @@ if (selected == 'About'):
     - In conclusion, our project is an innovative machine learning-based system designed to predict multiple diseases with high accuracy using various algorithms. With its deployment on Streamlit, individuals can access the system easily and use it to predict diseases, which can help them take necessary precautions and reduce the risks of contracting such diseases.
       """)
 st.write("<h5 style='color: pink;font-family: Arial;'>Developed By Truptimayee</h5>", unsafe_allow_html=True)
-  
-    
