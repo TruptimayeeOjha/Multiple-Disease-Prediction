@@ -246,7 +246,8 @@ if selected == 'About':
         unsafe_allow_html=True
     )
 
-    st.markdown(
-        "<h5 style='color: #ec5fff; font-family: Arial; text-align: center;'>Developed By Truptimayee</h5>",
-        unsafe_allow_html=True
-    )
+st.write(
+     "<h5 style='color: #ec5fff; font-family: \"Poppins\", sans-serif; text-align: left;'>Developed By Truptimayee</h5>", unsafe_allow_html=True
+)
+
+
