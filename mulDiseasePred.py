@@ -249,7 +249,7 @@ if selected == 'About':
     st.markdown(
         """
         <div style='text-align: justify;'>
-        - Our project, titled <b>'Multiple Disease Prediction System,'</b> is a machine learning-based system designed to predict diseases such as diabetes, heart disease, and Parkinson's disease. To achieve this, we employed various algorithms, including K-Nearest Neighbors (KNN), Random Forest, Naive Bayes, Logistic Regression, and Support Vector Machines (SVM), for classification. These algorithms were utilized to predict the disease based on the available dataset.<br><br>
+        Our project, titled <b>'Multiple Disease Prediction System,'</b> is a machine learning-based system designed to predict diseases such as diabetes, heart disease, and Parkinson's disease. To achieve this, we employed various algorithms, including K-Nearest Neighbors (KNN), Random Forest, Naive Bayes, Logistic Regression, and Support Vector Machines (SVM), for classification. These algorithms were utilized to predict the disease based on the available dataset.<br><br>
         
         - The aim of our project is to help individuals predict diseases with accuracy, which can enable them to take necessary precautions and reduce the risks of contracting such diseases. We developed the project for learning purposes, with the aim of improving it further in the future.<br><br>
         
