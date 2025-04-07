@@ -16,7 +16,7 @@ This project was developed for learning purposes and will continue to be improve
 ## 🧬 Diseases Covered
 
 - **Diabetes Mellitus** 🍬  
-- **Heart Disease** ❤️  
+- **Heart Disease** 🫀  
 - **Parkinson's Disease** 🧠
 
 Each disease is briefly explained below to help users understand:
@@ -56,7 +56,7 @@ Here are some screenshots of the application in action! 🎯
 
 ---
 
-### ❤️ Heart Disease Prediction Page
+### 🫀 Heart Disease Prediction Page
 ![Heart Disease Prediction](screenshots/heart.png)
 
 ---
