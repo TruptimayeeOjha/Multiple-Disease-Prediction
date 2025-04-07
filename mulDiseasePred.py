@@ -18,32 +18,47 @@ with st.sidebar:
                           default_index=0)
 
 # Diabetes Prediction Page
-if (selected == 'Home'):
+if selected == 'Home':
     st.title('Multiple Disease Prediction System')
     image = Image.open("imagemdp.png")
     st.image(image, use_column_width=True)
-    st.markdown("""
-        ## Diabetes:
+    
+    st.markdown(
+        """
+        <div style='text-align: justify; font-family: "Poppins", sans-serif;'>
+        <h2>Diabetes:</h2>
 
-        - Diabetes, also known as diabetes mellitus, is a chronic medical condition that occurs when the body is unable to properly regulate blood sugar levels. Blood sugar, or glucose, is the primary source of energy for the body's cells and tissues. However, in people with diabetes, the body cannot use glucose effectively, leading to high blood sugar levels.
-        - Diabetes can lead to a variety of complications, including damage to the eyes, kidneys, nerves, and cardiovascular system. It is therefore important for people with diabetes to manage their blood sugar levels and receive regular medical check-ups to prevent or manage any complications.
-        - Symptoms of diabetes include increased thirst and hunger, frequent urination, fatigue, blurred vision, and slow healing of cuts and bruises. However, some people with diabetes may not experience any symptoms at all, which is why regular screening is important, especially for individuals with risk factors such as a family history of diabetes, obesity, or a sedentary lifestyle.
-        - In conclusion, diabetes is a chronic medical condition that affects the body's ability to regulate blood sugar levels. It can lead to a variety of complications, but with proper management and medical care, people with diabetes can live full and healthy lives.
+        - Diabetes, also known as diabetes mellitus, is a chronic medical condition that occurs when the body is unable to properly regulate blood sugar levels. Blood sugar, or glucose, is the primary source of energy for the body's cells and tissues. However, in people with diabetes, the body cannot use glucose effectively, leading to high blood sugar levels.<br><br>
 
-        ## Heart Disease:
+        - Diabetes can lead to a variety of complications, including damage to the eyes, kidneys, nerves, and cardiovascular system. It is therefore important for people with diabetes to manage their blood sugar levels and receive regular medical check-ups to prevent or manage any complications.<br><br>
 
-        - Heart disease, also known as cardiovascular disease, is a group of conditions that affect the heart and blood vessels. It is one of the leading causes of death worldwide and includes conditions such as coronary artery disease, heart failure, and arrhythmias.
-        - Heart failure occurs when the heart is unable to pump blood effectively, leading to symptoms such as shortness of breath, fatigue, and swelling in the legs and ankles. Arrhythmias are abnormal heart rhythms that can cause the heart to beat too fast, too slow, or irregularly.
-        - Symptoms of heart disease can vary depending on the type of condition but may include chest pain or discomfort, shortness of breath, fatigue, dizziness, nausea, and sweating. It is important to seek medical attention if you experience any of these symptoms.
-        - In conclusion, heart disease is a group of conditions that affect the heart and blood vessels and can lead to serious complications. Lifestyle changes and medical care can help prevent and manage heart disease, but it is important to be aware of the symptoms and seek medical attention if necessary.
-        
-        ## Parkinsons Disease:
+        - Symptoms of diabetes include increased thirst and hunger, frequent urination, fatigue, blurred vision, and slow healing of cuts and bruises. However, some people with diabetes may not experience any symptoms at all, which is why regular screening is important, especially for individuals with risk factors such as a family history of diabetes, obesity, or a sedentary lifestyle.<br><br>
 
-        - Parkinson's disease is a progressive neurological disorder that affects movement. It occurs when the brain cells that produce the neurotransmitter dopamine are damaged or destroyed, leading to a decrease in dopamine levels. Dopamine is a chemical messenger that helps to control movement and coordination.
-        - The symptoms of Parkinson's disease can vary from person to person but typically include tremors, stiffness, slowness of movement, and difficulty with balance and coordination. As the disease progresses, it can also cause cognitive and behavioral changes, including memory loss and depression.
-        - While the cause of Parkinson's disease is not fully understood, it is believed to involve a combination of genetic and environmental factors. There is currently no cure for Parkinson's disease, but medications and therapies can help to manage symptoms and improve quality of life. These may include dopamine replacement therapy, physical therapy, and deep brain stimulation.
+        - In conclusion, diabetes is a chronic medical condition that affects the body's ability to regulate blood sugar levels. It can lead to a variety of complications, but with proper management and medical care, people with diabetes can live full and healthy lives.<br><br>
+
+        <h2>Heart Disease:</h2>
+
+        - Heart disease, also known as cardiovascular disease, is a group of conditions that affect the heart and blood vessels. It is one of the leading causes of death worldwide and includes conditions such as coronary artery disease, heart failure, and arrhythmias.<br><br>
+
+        - Heart failure occurs when the heart is unable to pump blood effectively, leading to symptoms such as shortness of breath, fatigue, and swelling in the legs and ankles. Arrhythmias are abnormal heart rhythms that can cause the heart to beat too fast, too slow, or irregularly.<br><br>
+
+        - Symptoms of heart disease can vary depending on the type of condition but may include chest pain or discomfort, shortness of breath, fatigue, dizziness, nausea, and sweating. It is important to seek medical attention if you experience any of these symptoms.<br><br>
+
+        - In conclusion, heart disease is a group of conditions that affect the heart and blood vessels and can lead to serious complications. Lifestyle changes and medical care can help prevent and manage heart disease, but it is important to be aware of the symptoms and seek medical attention if necessary.<br><br>
+
+        <h2>Parkinson's Disease:</h2>
+
+        - Parkinson's disease is a progressive neurological disorder that affects movement. It occurs when the brain cells that produce the neurotransmitter dopamine are damaged or destroyed, leading to a decrease in dopamine levels. Dopamine is a chemical messenger that helps to control movement and coordination.<br><br>
+
+        - The symptoms of Parkinson's disease can vary from person to person but typically include tremors, stiffness, slowness of movement, and difficulty with balance and coordination. As the disease progresses, it can also cause cognitive and behavioral changes, including memory loss and depression.<br><br>
+
+        - While the cause of Parkinson's disease is not fully understood, it is believed to involve a combination of genetic and environmental factors. There is currently no cure for Parkinson's disease, but medications and therapies can help to manage symptoms and improve quality of life. These may include dopamine replacement therapy, physical therapy, and deep brain stimulation.<br><br>
+
         - In conclusion, Parkinson's disease is a progressive neurological disorder that affects movement and coordination. While there is no cure for the disease, medications and therapies can help to manage symptoms and improve quality of life. Support and resources are available to help individuals and their families cope with the challenges of living with Parkinson's disease.
-        """)
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
 
 
 if (selected == 'Diabetes Prediction'):
@@ -246,8 +261,8 @@ if selected == 'About':
         unsafe_allow_html=True
     )
 
-st.write(
-     "<h5 style='color: #ec5fff; font-family: \"Poppins\", sans-serif; text-align: left;'>Developed By Truptimayee</h5>", unsafe_allow_html=True
+st.markdown(
+     "<h5 style='color: #00FFFF; font-family: \"Poppins\", sans-serif; text-align: left;'>Developed By Truptimayee</h5>", unsafe_allow_html=True
 )
 
 
