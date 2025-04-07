@@ -219,12 +219,34 @@ if (selected == "Parkinsons Prediction"):
     st.markdown(f'<h3 style="color: {color};">{parkinsons_diagnosis}</h3>', unsafe_allow_html=True)
 
 
-if (selected == 'About'):
+# if (selected == 'About'):
+#     st.title("About")
+#     st.markdown("""
+#     - Our project, titled **'Multiple Disease Prediction System,'** is a machine learning-based system designed to predict diseases such as diabetes, heart disease, and Parkinson's disease. To achieve this, we employed various algorithms, including K-Nearest Neighbors (KNN), Random Forest, Naive Bayes, Logistic Regression, and Support Vector Machines (SVM), for classification. These algorithms were utilized to predict the disease based on the available dataset.
+#     - The aim of our project is to help individuals predict diseases with accuracy, which can enable them to take necessary precautions and reduce the risks of contracting such diseases. We developed the project for learning purposes, with the aim of improving it further in the future.
+#     - To make our project accessible and user-friendly, we deployed it using Streamlit, an open-source app framework used for building web applications. This deployment enables individuals to use our system with ease and access the predictions on the go.
+#     - In conclusion, our project is an innovative machine learning-based system designed to predict multiple diseases with high accuracy using various algorithms. With its deployment on Streamlit, individuals can access the system easily and use it to predict diseases, which can help them take necessary precautions and reduce the risks of contracting such diseases.
+#       """)
+# st.write("<h5 style='color: pink;font-family: Arial;'>Developed By Truptimayee</h5>", unsafe_allow_html=True)
+
+if selected == 'About':
     st.title("About")
-    st.markdown("""
-    - Our project, titled **'Multiple Disease Prediction System,'** is a machine learning-based system designed to predict diseases such as diabetes, heart disease, and Parkinson's disease. To achieve this, we employed various algorithms, including K-Nearest Neighbors (KNN), Random Forest, Naive Bayes, Logistic Regression, and Support Vector Machines (SVM), for classification. These algorithms were utilized to predict the disease based on the available dataset.
-    - The aim of our project is to help individuals predict diseases with accuracy, which can enable them to take necessary precautions and reduce the risks of contracting such diseases. We developed the project for learning purposes, with the aim of improving it further in the future.
-    - To make our project accessible and user-friendly, we deployed it using Streamlit, an open-source app framework used for building web applications. This deployment enables individuals to use our system with ease and access the predictions on the go.
-    - In conclusion, our project is an innovative machine learning-based system designed to predict multiple diseases with high accuracy using various algorithms. With its deployment on Streamlit, individuals can access the system easily and use it to predict diseases, which can help them take necessary precautions and reduce the risks of contracting such diseases.
-      """)
-st.write("<h5 style='color: pink;font-family: Arial;'>Developed By Truptimayee</h5>", unsafe_allow_html=True)
+    st.markdown(
+        """
+        <div style='text-align: justify;'>
+        - Our project, titled <b>'Multiple Disease Prediction System,'</b> is a machine learning-based system designed to predict diseases such as diabetes, heart disease, and Parkinson's disease. To achieve this, we employed various algorithms, including K-Nearest Neighbors (KNN), Random Forest, Naive Bayes, Logistic Regression, and Support Vector Machines (SVM), for classification. These algorithms were utilized to predict the disease based on the available dataset.<br><br>
+        
+        - The aim of our project is to help individuals predict diseases with accuracy, which can enable them to take necessary precautions and reduce the risks of contracting such diseases. We developed the project for learning purposes, with the aim of improving it further in the future.<br><br>
+        
+        - To make our project accessible and user-friendly, we deployed it using Streamlit, an open-source app framework used for building web applications. This deployment enables individuals to use our system with ease and access the predictions on the go.<br><br>
+        
+        - In conclusion, our project is an innovative machine learning-based system designed to predict multiple diseases with high accuracy using various algorithms. With its deployment on Streamlit, individuals can access the system easily and use it to predict diseases, which can help them take necessary precautions and reduce the risks of contracting such diseases.
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        "<h5 style='color: #ec5fff; font-family: Arial; text-align: center;'>Developed By Truptimayee</h5>",
+        unsafe_allow_html=True
+    )
