@@ -20,7 +20,7 @@ with st.sidebar:
 # Diabetes Prediction Page
 if (selected == 'Home'):
     st.title('Multiple Disease Prediction System')
-    image = Image.open("image.png")
+    image = Image.open("imagemdp.png")
     st.image(image, use_column_width=True)
     st.markdown("""
         ## Diabetes:
